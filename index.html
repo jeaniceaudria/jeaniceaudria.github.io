@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="header-name">Janice Marsha Audria</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="transition-colors duration-500">
+    <header class="fixed top-0 left-0 right-0 z-50 transition-colors duration-500">
+      <div class="spacer">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center text-white font-bold text-xl transition-all duration-300 transform hover:scale-110" id="ja-initials">
+                    JA
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold" data-lang-key="header-name">Janice Marsha Audria</h1>
+                    <p class="text-muted-foreground text-sm" data-lang-key="header-title">QA Enthusiast • Manual Testing • Web Projects</p>
+                </div>
+            </div>
+            <div class="relative flex items-center space-x-4">
+                <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="#about" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-about">Tentang</a>
+                    <a href="#stats" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-stats">Statistik</a>
+                    <a href="#portfolio" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-portfolio">Portofolio</a>
+                    <a href="#experience" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-experience">Pengalaman</a>
+                    <a href="#achievements" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-achievements">Prestasi</a>
+                </nav>
+                <div class="relative">
+                    <button id="lang-menu-btn" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300 text-sm font-bold">ID</button>
+                    <div id="lang-menu" class="hidden absolute right-0 mt-2 w-20 rounded-md shadow-lg bg-card ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="id">ID</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="en">EN</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="de">DE</a>
+                    </div>
+                </div>
+                <button id="themeToggle" class="w-8 h-8 rounded-full flex items-center justify-center text-xl transition-transform duration-300 transform hover:scale-110">🌙</button>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="min-h-screen pt-28 pb-16">
+        <section class="max-w-5xl mx-auto mb-20 px-6" id="hero">
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 reveal" data-lang-key="hero-tagline">
+                        Saya membuat perangkat lunak lebih aman — satu kasus uji dalam satu waktu.
+                    </h1>
+                    <p class="text-lg text-muted-foreground mb-6 reveal" data-lang-key="hero-bio">
+                        Seorang QA enthusiast yang saat ini menempuh studi Informatika di Telkom University. Saya membuat artefak uji yang jelas, melakukan pengujian manual yang teliti, dan membangun proyek web kecil untuk mengasah keterampilan saya.
+                    </p>
+                    <div class="flex flex-wrap gap-3 reveal">
+                        <a href="#contact" class="px-4 py-2 rounded-lg font-bold shadow-lg floating btn-primary" data-lang-key="hero-contact-btn">Hubungi / Rekrut</a>
+                        <a href="https://jeaniceaudria.github.io/" target="_blank" class="px-4 py-2 rounded-lg font-semibold floating btn-secondary" data-lang-key="hero-portfolio-btn">Portofolio Langsung</a>
+                        <a href="#achievements" class="px-4 py-2 rounded-lg font-semibold floating btn-secondary" data-lang-key="hero-certificates-btn">Sertifikat</a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="p-4 rounded-3xl glass text-center floating">
+                        <img src="https://janiceaudria.github.io/assets/img/janice.jpg" alt="Profile Picture" class="rounded-2xl w-48 h-48 mx-auto mb-4 object-cover" id="pf">
+                        <h2 class="text-xl font-semibold mb-1" data-lang-key="aside-name">Janice Marsha Audria</h2>
+                        <p class="text-muted-foreground text-sm" data-lang-key="aside-title">QA Enthusiast — Manual Testing</p>
+                        <div class="mt-4 flex justify-center space-x-4 text-muted-foreground text-sm">
+                            <a href="https://github.com/JeaniceAudria" target="_blank" class="hover:text-purple-500 transition-colors duration-300">GitHub</a>
+                            <a href="https://www.linkedin.com/in/jeaniceeffendi" target="_blank" class="hover:text-purple-500 transition-colors duration-300">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="stats">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="stats-title">Statistik Saya</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 px-6">
+                <div class="p-6 rounded-2xl glass text-center floating">
+                    <p class="text-4xl font-extrabold text-indigo-300" id="kYears">0</p>
+                    <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-years">Tahun Pengalaman</p>
+                </div>
+                <div class="p-6 rounded-2xl glass text-center floating">
+                    <p class="text-4xl font-extrabold text-indigo-300" id="kProjects">0</p>
+                    <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-projects">Proyek Selesai</p>
+                </div>
+                <div class="p-6 rounded-2xl glass text-center floating">
+                    <p class="text-4xl font-extrabold text-indigo-300" id="kBugs">0</p>
+                    <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-bugs">Total Bug Ditemukan</p>
+                </div>
+                <div class="p-6 rounded-2xl glass text-center floating">
+                    <p class="text-4xl font-extrabold text-indigo-300" id="kCertificates">0</p>
+                    <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-certs">Sertifikat Profesional</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="about">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="about-title">Tentang Saya</h2>
+            <div class="p-8 rounded-3xl glass">
+                <p class="text-lg text-muted-foreground mb-6 leading-relaxed" data-lang-key="about-text">
+                    Saya lulusan SMK Telkom Sandhy Putra Malang (Rekayasa Perangkat Lunak) dan saat ini melanjutkan studi di Telkom University - Informatics (S1 PJJ). Berpengalaman magang sebagai Project Administrator & Support dan asisten laboratorium. Fokus saya pada manual testing, dokumentasi QA, pengelolaan data, dan pengembangan web sederhana sebagai alat latihan.
+                </p>
+                <div class="border-l-4 border-purple-500 pl-4 py-2 mt-8">
+                    <h3 class="text-xl font-bold mb-2" data-lang-key="about-motivation-heading">Motivasi</h3>
+                    <p class="text-muted-foreground italic leading-relaxed" data-lang-key="about-motivation-text">
+                        "Memastikan setiap produk digital yang saya sentuh memberikan pengalaman yang lancar dan andal bagi penggunanya melalui pengujian yang cermat dan pembelajaran berkelanjutan."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="portfolio">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="portfolio-title">Portofolio & Proyek</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl glass floating">
+                    <h3 class="text-xl font-bold mb-2" data-lang-key="portfolio-project1-name">Personal Portfolio</h3>
+                    <p class="text-muted-foreground mb-4 text-sm" data-lang-key="portfolio-project1-desc">Situs statis (proyek ini) — responsif dengan mode gelap/terang.</p>
+                    <div class="flex flex-wrap gap-2 text-sm font-semibold">
+                        <a href="https://jeaniceaudria.github.io/" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-live">Demo</a>
+                        <a href="https://github.com/JeaniceAudria" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-code">Kode</a>
+                    </div>
+                </div>
+                <div class="p-6 rounded-2xl glass floating">
+                    <h3 class="text-xl font-bold mb-2" data-lang-key="portfolio-project2-name">Netflix Clone</h3>
+                    <p class="text-muted-foreground mb-4 text-sm" data-lang-key="portfolio-project2-desc">UI Frontend untuk latihan tata letak & pengujian.</p>
+                    <div class="flex flex-wrap gap-2 text-sm font-semibold">
+                        <a href="https://jeaniceaudria.github.io/Netflix-Clone/" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-live">Demo</a>
+                        <a href="https://github.com/JeaniceAudria/Netflix-Clone" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-code">Kode</a>
+                    </div>
+                </div>
+                <div class="p-6 rounded-2xl glass floating">
+                    <h3 class="text-xl font-bold mb-2" data-lang-key="portfolio-project3-name">PT Mommi Hokki — Profil Perusahaan</h3>
+                    <p class="text-muted-foreground mb-4 text-sm" data-lang-key="portfolio-project3-desc">Situs web proyek akhir untuk klien / portofolio akademis.</p>
+                    <div class="flex flex-wrap gap-2 text-sm font-semibold">
+                        <a href="https://jeaniceaudria.github.io/PT-Mommi-Hokki-Company-Profile/" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-live">Demo</a>
+                        <a href="https://github.com/JeaniceAudria/PT-Mommi-Hokki-Company-Profile" target="_blank" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300" data-lang-key="portfolio-code">Kode</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="experience">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="experience-title">Pengalaman Kerja</h2>
+            <div class="space-y-8">
+                <div class="p-8 rounded-2xl glass floating">
+                    <h3 class="text-xl font-bold mb-1" data-lang-key="experience-job1-title">Project Administrator & Support</h3>
+                    <p class="text-muted-foreground text-sm" data-lang-key="experience-job1-company">PT Solusi Inovasi Utama (Internship)</p>
+                    <p class="text-muted-foreground text-xs mt-1 mb-4" data-lang-key="experience-job1-date">Mei - Agustus 2023</p>
+                    <ul class="list-disc list-inside space-y-2 text-muted-foreground">
+                        <li data-lang-key="experience-job1-desc1">Mengelola data perusahaan menggunakan Odoo ERP dan Excel.</li>
+                        <li data-lang-key="experience-job1-desc2">Membuat & mengelola dokumentasi proyek (termasuk kasus uji).</li>
+                        <li data-lang-key="experience-job1-desc3">Melakukan pengujian manual pada sistem untuk memastikan fungsionalitas.</li>
+                    </ul>
+                </div>
+                <div class="p-8 rounded-2xl glass floating">
+                    <h3 class="text-xl font-bold mb-1" data-lang-key="experience-job2-title">Asisten Laboratorium</h3>
+                    <p class="text-muted-foreground text-sm" data-lang-key="experience-job2-company">SMK Telkom Sandhy Putra Malang</p>
+                    <p class="text-muted-foreground text-xs mt-1 mb-4" data-lang-key="experience-job2-date">2021 - 2022</p>
+                    <ul class="list-disc list-inside space-y-2 text-muted-foreground">
+                        <li data-lang-key="experience-job2-desc1">Membantu instruktur dalam persiapan dan pelaksanaan praktikum.</li>
+                        <li data-lang-key="experience-job2-desc2">Memberikan panduan kepada siswa dalam menggunakan perangkat lunak.</li>
+                        <li data-lang-key="experience-job2-desc3">Memastikan peralatan laboratorium dalam kondisi baik.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="achievements">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="achievements-title">Sertifikat & Prestasi</h2>
+            <div class="p-8 rounded-3xl glass">
+                <h3 class="text-xl font-bold mb-4" data-lang-key="achievements-section-title">Sertifikat</h3>
+                <div class="space-y-4 text-muted-foreground">
+                    <p><strong>Dicoding:</strong> <span data-lang-key="achievements-cert1-desc">Pengembangan Web, Manajemen Proyek (2023)</span></p>
+                    <p><strong>PraKerja:</strong> <span data-lang-key="achievements-cert2-desc">Laravel, HTML/CSS/JS (2023)</span></p>
+                    <p><strong>MySkill:</strong> <span data-lang-key="achievements-cert3-desc">Kelas Singkat Microsoft Excel (2024)</span></p>
+                    <p><strong>Polinema LSP:</strong> <span data-lang-key="achievements-cert4-desc">Pengelolaan Administrasi Perkantoran (2024)</span></p>
+                </div>
+                <h3 class="text-xl font-bold mt-8 mb-4" data-lang-key="achievements-section-title">Prestasi Lainnya</h3>
+                <ul class="list-disc list-inside text-muted-foreground space-y-2">
+                    <li data-lang-key="achievements-item1">Pemenang kompetisi video tingkat SMA/SMK.</li>
+                    <li data-lang-key="achievements-item2">Berhasil menyelesaikan 5+ proyek klien dalam waktu kurang dari 1 bulan selama magang.</li>
+                    <li data-lang-key="achievements-item3">Menangani tugas asisten laboratorium dan meningkatkan penyampaian praktikum.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="contact">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="contact-title">Hubungi</h2>
+            <div class="p-8 rounded-3xl glass">
+                <p class="mb-2"><strong data-lang-key="contact-email-label">Email:</strong> <a href="mailto:jeaniceaudria@gmail.com" class="text-indigo-300">jeaniceaudria@gmail.com</a></p>
+                <p class="mb-2"><strong data-lang-key="contact-phone-label">Telepon:</strong> <a href="tel:+62895411760937" class="text-indigo-300">+62 895-4117-60937</a></p>
+                <p><strong data-lang-key="contact-linkedin-label">LinkedIn:</strong> <a href="https://linkedin.com/in/jeaniceeffendi" target="_blank" class="text-indigo-300">linkedin.com/in/jeaniceeffendi</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center text-muted-foreground py-8">
+        <p>&copy; <span id="yr"></span> Janice Marsha Audria</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
