@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="header-name">Janice Marsha Audria</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="transition-colors duration-500">
+    <header class="fixed top-0 left-0 right-0 z-50 transition-colors duration-500">
+      <div class="spacer">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div href="#hero" class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center text-white font-bold text-xl transition-all duration-300 transform hover:scale-110" id="ja-initials">
+                    JA
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold" data-lang-key="header-name">Janice Marsha Audria</h1>
+                    <p class="text-muted-foreground text-sm" data-lang-key="header-title">QA Enthusiast • Manual Testing • Web Projects</p>
+                </div>
+            </div>
+            <div class="relative flex items-center space-x-4">
+                <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="#about" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-about">Tentang</a>
+                    <a href="#stats" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-stats">Statistik</a>
+                    <a href="#portfolio" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-portfolio">Portofolio</a>
+                    <a href="#experience" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-experience">Pengalaman</a>
+                    <a href="#achievements" class="hover:text-purple-500 transition-colors duration-300" data-lang-key="nav-achievements">Prestasi</a>
+                </nav>
+                <div class="relative">
+                    <button id="lang-menu-btn" class="px-3 py-1 rounded-full bg-white/6 hover:bg-white/10 transition-colors duration-300 text-sm font-bold">ID</button>
+                    <div id="lang-menu" class="hidden absolute right-0 mt-2 w-20 rounded-md shadow-lg bg-card ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="id">ID</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="en">EN</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-text hover:bg-gray-100" data-lang="de">DE</a>
+                    </div>
+                </div>
+                <button id="themeToggle" class="w-8 h-8 rounded-full flex items-center justify-center text-xl transition-transform duration-300 transform hover:scale-110">🌙</button>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="min-h-screen pt-28 pb-16">
+<section class="max-w-5xl mx-auto text-center py-32 px-6 reveal" id="coming-soon">
+  <div class="p-12 rounded-3xl glass flex flex-col items-center">
+    <!-- GIF animasi -->
+    <img src="https://lp3sihi.com/landing/maintenance.gif" alt="Coming Soon GIF" class="w-64 mb-6" />
+    
+    <h2 class="text-5xl font-bold mb-4" data-lang-key="soon-title">Coming Soon!</h2>
+    <p class="text-xl mb-6" data-lang-key="soon-text">
+        Konten ini sedang dalam pengembangan. Nantikan update terbaru dari kami!
+    </p>
+   <a href="https://jeaniceaudria.github.io/" 
+   class="inline-block bg-indigo-500 text-white px-6 py-3 rounded-full hover:bg-indigo-600 transition" 
+   data-lang-key="soon-back">
+   Kembali ke Beranda
+</a>
+
+</div>
+
+</section>
+
+<style>
+  #coming-soon {
+      color: #fff;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #coming-soon .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #fff;
+  }
+</style>
+
+
+    </main>
+
+    <footer class="text-center text-muted-foreground py-8">
+        <p>&copy; <span id="yr"></span> Janice Marsha Audria</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
