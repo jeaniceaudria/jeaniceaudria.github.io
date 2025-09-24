@@ -120,6 +120,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'achievements-item4': 'Video Kreator Terbaik – PT Mommi Hokki Indonesia (2023)',
     'achievements-item5': 'Meraih nilai A dalam program magang sebagai Quality Assurance di PT Sekawan Media (2024)',
     'achievements-item6': 'Menyelesaikan lebih dari 5 proyek klien dalam waktu kurang dari 1 bulan selama masa magang (2024)',
+    
+    'language-title': 'Bahasa',
+    'bhs-indo': 'Bahasa Indonesia:',
+    'bhs-inggris': 'Bahasa Inggris:',
+    'bhs-jerman': 'Bahasa Jerman:',
 
     'contact-title': 'Hubungi',
     'contact-email-label': 'Email:',
@@ -254,6 +259,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'achievements-item5': 'Achieved an A grade in the internship program as a Quality Assurance at PT Sekawan Media (2024)',
     'achievements-item6': 'Completed more than 5 client projects in less than 1 month during internship (2024)',
 
+    'language-title': 'Languages',
+    'bhs-indo': 'Indonesian:',
+    'bhs-inggris': 'English:',
+    'bhs-jerman': 'German:',
+
     'contact-title': 'Contact',
     'contact-email-label': 'Email:',
     'contact-phone-label': 'Phone:',
@@ -384,6 +394,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'achievements-item4': 'Beste Videoproduzentin – PT Mommi Hokki Indonesia (2023)',
     'achievements-item5': 'Note A im Praktikum als Quality Assurance bei PT Sekawan Media (2024)',
     'achievements-item6': 'Abschluss von über 5 Kundenprojekten in weniger als 1 Monat während des Praktikums (2024)',
+    
+    'language-title': 'Sprachen',
+    'bhs-indo': 'Indonesisch:',
+    'bhs-inggris': 'Englisch:',
+    'bhs-jerman': 'Deutsch:',
 
     'contact-title': 'Kontakt',
     'contact-email-label': 'E-Mail:',
