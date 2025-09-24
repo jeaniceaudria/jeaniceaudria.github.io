@@ -328,7 +328,7 @@
     'portfolio-project4-name': 'LJ-Project',
     'portfolio-project4-desc': 'Freelance-Kollaboration — offen für die Erstellung verschiedener Websites nach Kundenwunsch.',
 
-    'portfolio-project5-name': 'Qualitätssicherungsdokumentation',
+    'portfolio-project5-name': 'QS-Dokumentation',
     'portfolio-project5-desc': 'QA-Dokumentation: Bug-Reports, Testfälle und Qualitätsbewertungen während des Praktikums.',
 
     'portfolio-project6-name': 'JeanVerse — Eventmanagement & Ticketing',
