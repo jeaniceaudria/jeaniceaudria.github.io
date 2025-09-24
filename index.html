@@ -13,7 +13,7 @@
     <header class="fixed top-0 left-0 right-0 z-50 transition-colors duration-500">
       <div class="spacer">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-            <div class="flex items-center space-x-4">
+            <div href="#hero" class="flex items-center space-x-4">
                 <div class="w-10 h-10 bg-purple-700 rounded-full flex items-center justify-center text-white font-bold text-xl transition-all duration-300 transform hover:scale-110" id="ja-initials">
                     JA
                 </div>
@@ -86,7 +86,7 @@
                     <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-projects">Proyek Selesai</p>
                 </div>
                 <div class="p-6 rounded-2xl glass text-center floating">
-                    <p class="text-4xl font-extrabold text-indigo-300" id="kBugs">0</p>
+                    <p class="text-4xl font-extrabold text-indigo-300" id="kBugs">0 +</p>
                     <p class="text-muted-foreground text-sm mt-1" data-lang-key="stats-bugs">Total Bug Ditemukan</p>
                 </div>
                 <div class="p-6 rounded-2xl glass text-center floating">
@@ -141,31 +141,156 @@
             </div>
         </section>
 
-        <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="experience">
-            <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="experience-title">Pengalaman Kerja</h2>
-            <div class="space-y-8">
-                <div class="p-8 rounded-2xl glass floating">
-                    <h3 class="text-xl font-bold mb-1" data-lang-key="experience-job1-title">Project Administrator & Support</h3>
-                    <p class="text-muted-foreground text-sm" data-lang-key="experience-job1-company">PT Solusi Inovasi Utama (Internship)</p>
-                    <p class="text-muted-foreground text-xs mt-1 mb-4" data-lang-key="experience-job1-date">Mei - Agustus 2023</p>
-                    <ul class="list-disc list-inside space-y-2 text-muted-foreground">
-                        <li data-lang-key="experience-job1-desc1">Mengelola data perusahaan menggunakan Odoo ERP dan Excel.</li>
-                        <li data-lang-key="experience-job1-desc2">Membuat & mengelola dokumentasi proyek (termasuk kasus uji).</li>
-                        <li data-lang-key="experience-job1-desc3">Melakukan pengujian manual pada sistem untuk memastikan fungsionalitas.</li>
-                    </ul>
-                </div>
-                <div class="p-8 rounded-2xl glass floating">
-                    <h3 class="text-xl font-bold mb-1" data-lang-key="experience-job2-title">Asisten Laboratorium</h3>
-                    <p class="text-muted-foreground text-sm" data-lang-key="experience-job2-company">SMK Telkom Sandhy Putra Malang</p>
-                    <p class="text-muted-foreground text-xs mt-1 mb-4" data-lang-key="experience-job2-date">2021 - 2022</p>
-                    <ul class="list-disc list-inside space-y-2 text-muted-foreground">
-                        <li data-lang-key="experience-job2-desc1">Membantu instruktur dalam persiapan dan pelaksanaan praktikum.</li>
-                        <li data-lang-key="experience-job2-desc2">Memberikan panduan kepada siswa dalam menggunakan perangkat lunak.</li>
-                        <li data-lang-key="experience-job2-desc3">Memastikan peralatan laboratorium dalam kondisi baik.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+       <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="experience">
+  <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="experience-title">Pengalaman Kerja</h2>
+  <div class="space-y-4">
+
+    <!-- Job 1 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job1-title">Team Supervisor</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job1-company">PT Mommi Hokki Indonesia</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job1-date">2023 - 2025</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job1-desc1">Memimpin tim operasional harian untuk mencapai target produksi dan layanan tepat waktu.</li>
+          <li data-lang-key="experience-job1-desc2">Mengoptimalkan koordinasi lintas departemen untuk meningkatkan efisiensi kerja.</li>
+          <li data-lang-key="experience-job1-desc3">Melatih dan membimbing anggota tim baru untuk meningkatkan kinerja dan kualitas.</li>
+          <li data-lang-key="experience-job1-desc4">Berhasil meningkatkan produktivitas tim dan kepuasan pelanggan melalui optimalisasi proses kerja.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 2 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job2-title">Admin IT</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job2-company">PT Mommi Hokki Indonesia</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job2-date">2022 - 2024</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job2-desc1">Mengelola sistem IT internal dan memberikan dukungan teknis kepada karyawan.</li>
+          <li data-lang-key="experience-job2-desc2">Melakukan manual testing untuk memastikan sistem berjalan sesuai standar.</li>
+          <li data-lang-key="experience-job2-desc3">Menangani troubleshooting secara cepat untuk meminimalisasi downtime operasional.</li>
+          <li data-lang-key="experience-job2-desc4">Berkontribusi pada pengembangan sistem IT yang meningkatkan stabilitas dan efisiensi kerja.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 3 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job3-title">Quality Assurance Engineer (Internship)</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job3-company">PT Sekawan Media Informatika</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job3-date">2024</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job3-desc1">Membuat test case dan skenario terstruktur menggunakan Notion.</li>
+          <li data-lang-key="experience-job3-desc2">Melakukan manual testing produk digital, mengidentifikasi lebih dari 30 bug kritis per sprint.</li>
+          <li data-lang-key="experience-job3-desc3">Berkolaborasi dengan developer dan tim produk untuk menjaga standar kualitas.</li>
+          <li data-lang-key="experience-job3-desc4">Memberikan umpan balik yang menurunkan potensi error hingga 40%.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 4 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job4-title">IT & System Staff</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job4-company">PT Mitufaya Ritel Indonesia</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job4-date">2023 - 2024</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job4-desc1">Menangani perbaikan data dan koreksi error pada sistem Odoo ERP.</li>
+          <li data-lang-key="experience-job4-desc2">Merancang serta memperbarui layout website untuk meningkatkan branding.</li>
+          <li data-lang-key="experience-job4-desc3">Mengelola database karyawan dan laporan penjualan Beauty Advisor dengan akurasi tinggi.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 5 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job5-title">IT Support</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job5-company">PT Cubiconia Kanaya Pratama</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job5-date">2021 - 2023</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job5-desc1">Menangani keluhan pelanggan melalui layanan chat dengan respon cepat dan akurat.</li>
+          <li data-lang-key="experience-job5-desc2">Melakukan pemeliharaan SQL untuk menjaga integritas data.</li>
+          <li data-lang-key="experience-job5-desc3">Mendesain UI/UX untuk aplikasi mobile dan web.</li>
+          <li data-lang-key="experience-job5-desc4">Berkontribusi pada pengembangan sistem internal yang meningkatkan pengalaman pengguna.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 6 -->
+    <div class="rounded-2xl glass overflow-hidden">
+      <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none toggle-btn">
+        <div>
+          <h3 class="text-lg font-bold" data-lang-key="experience-job6-title">Content Producer (Freelance)</h3>
+          <p class="text-muted-foreground text-sm" data-lang-key="experience-job6-company">PT Mommi Hokki Indonesia</p>
+          <p class="text-muted-foreground text-xs" data-lang-key="experience-job6-date">2021 - 2022</p>
+        </div>
+        <span class="ml-2 transition-transform toggle-icon"></span>
+      </button>
+      <div class="toggle-content px-6 pb-0 max-h-0 opacity-0 overflow-hidden transition-all duration-700 ease-in-out">
+        <ul class="list-disc list-inside space-y-2 text-muted-foreground py-4">
+          <li data-lang-key="experience-job6-desc1">Membuat dan mengelola konten digital untuk mendukung branding perusahaan.</li>
+          <li data-lang-key="experience-job6-desc2">Menyusun strategi konten yang meningkatkan engagement pelanggan.</li>
+          <li data-lang-key="experience-job6-desc3">Berkolaborasi dengan tim pemasaran dalam kampanye digital.</li>
+          <li data-lang-key="experience-job6-desc4">Menghasilkan konten yang memperkuat citra perusahaan di pasar.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Job 7 -->
+    </div>
+
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const content = btn.parentElement.querySelector('.toggle-content');
+      const icon = btn.querySelector('.toggle-icon');
+
+      if (content.classList.contains('max-h-0')) {
+        // buka
+        content.classList.remove('max-h-0', 'opacity-0');
+        content.classList.add('max-h-[1000px]', 'opacity-100');
+        icon.classList.add('rotate-180');
+      } else {
+        // tutup
+        content.classList.remove('max-h-[1000px]', 'opacity-100');
+        content.classList.add('max-h-0', 'opacity-0');
+        icon.classList.remove('rotate-180');
+      }
+    });
+  });
+</script>
+
 
         <section class="max-w-5xl mx-auto mb-20 reveal px-6 pt-24" id="achievements">
             <h2 class="text-3xl font-bold mb-8 text-center" data-lang-key="achievements-title">Sertifikat & Prestasi</h2>
@@ -175,14 +300,18 @@
                     <p><strong>Dicoding:</strong> <span data-lang-key="achievements-cert1-desc">Pengembangan Web, Manajemen Proyek (2023)</span></p>
                     <p><strong>PraKerja:</strong> <span data-lang-key="achievements-cert2-desc">Laravel, HTML/CSS/JS (2023)</span></p>
                     <p><strong>MySkill:</strong> <span data-lang-key="achievements-cert3-desc">Kelas Singkat Microsoft Excel (2024)</span></p>
-                    <p><strong>Polinema LSP:</strong> <span data-lang-key="achievements-cert4-desc">Pengelolaan Administrasi Perkantoran (2024)</span></p>
+                    <p><strong>DOT:</strong> <span data-lang-key="achievements-cert4-desc">Pengelolaan Administrasi Perkantoran (2024)</span></p>
                 </div>
-                <h3 class="text-xl font-bold mt-8 mb-4" data-lang-key="achievements-section-title">Prestasi Lainnya</h3>
-                <ul class="list-disc list-inside text-muted-foreground space-y-2">
-                    <li data-lang-key="achievements-item1">Pemenang kompetisi video tingkat SMA/SMK.</li>
-                    <li data-lang-key="achievements-item2">Berhasil menyelesaikan 5+ proyek klien dalam waktu kurang dari 1 bulan selama magang.</li>
-                    <li data-lang-key="achievements-item3">Menangani tugas asisten laboratorium dan meningkatkan penyampaian praktikum.</li>
-                </ul>
+                <h3 class="text-xl font-bold mt-8 mb-4" data-lang-key="achievements-section-title1">Prestasi Lainnya</h3>
+<ul class="list-disc list-inside text-muted-foreground space-y-2">
+    <li data-lang-key="achievements-item1">Juara Video Favorit – Honda AHM (2019)</li>
+    <li data-lang-key="achievements-item2">Juara Video Favorit – Universitas Katolik Darma Cendika (2020 & 2021)</li>
+    <li data-lang-key="achievements-item3">Finalis 10 Besar Video Terbaik – Bank Indonesia (2020 & 2021)</li>
+    <li data-lang-key="achievements-item4">Video Kreator Terbaik – PT Mommi Hokki Indonesia (2023)</li>
+    <li data-lang-key="achievements-item5">Meraih Nilai A dalam program magang sebagai Quality Assurance di PT Sekawan Media (2024)</li>
+    <li data-lang-key="achievements-item6">Menyelesaikan lebih dari 5 proyek klien dalam waktu kurang dari 1 bulan selama masa magang (2024)</li>
+</ul>
+
             </div>
         </section>
 
@@ -191,7 +320,8 @@
             <div class="p-8 rounded-3xl glass">
                 <p class="mb-2"><strong data-lang-key="contact-email-label">Email:</strong> <a href="mailto:jeaniceaudria@gmail.com" class="text-indigo-300">jeaniceaudria@gmail.com</a></p>
                 <p class="mb-2"><strong data-lang-key="contact-phone-label">Telepon:</strong> <a href="tel:+62895411760937" class="text-indigo-300">+62 895-4117-60937</a></p>
-                <p><strong data-lang-key="contact-linkedin-label">LinkedIn:</strong> <a href="https://linkedin.com/in/jeaniceeffendi" target="_blank" class="text-indigo-300">linkedin.com/in/jeaniceeffendi</a></p>
+                <p class="mb-2"><strong data-lang-key="contact-linkedin-label">LinkedIn:</strong> <a href="https://linkedin.com/in/jeaniceeffendi" target="_blank" class="text-indigo-300">Janice Marsha Audria</a></p>
+                <p><strong data-lang-key="contact-instagram-label">Instagram:</strong> <a href="https://instagram.com/jeaniceaudria" target="_blank" class="text-indigo-300">@jeaniceaudria</a></p>
             </div>
         </section>
     </main>
@@ -202,6 +332,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
-
