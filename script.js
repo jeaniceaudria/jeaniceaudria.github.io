@@ -122,9 +122,12 @@
         'achievements-item6': 'Menyelesaikan lebih dari 5 proyek klien dalam waktu kurang dari 1 bulan selama masa magang (2024)',
         
         'language-title': 'Bahasa',
-        'bhs-indo': 'Bahasa Indonesia:',
-        'bhs-inggris': 'Bahasa Inggris:',
-        'bhs-jerman': 'Bahasa Jerman:',
+        'bhs-indo': 'Bahasa Indonesia',
+        'bhs-inggris': 'Bahasa Inggris',
+        'bhs-jerman': 'Bahasa Jerman',
+        'bhs-indo1': 'Penutur asli',
+        'bhs-inggris1': 'B2 | Menengah atas / Cukup mahir',
+        'bhs-jerman1': 'Pemula',
 
         'contact-title': 'Hubungi',
         'contact-email-label': 'Email:',
@@ -264,9 +267,12 @@
         'achievements-item6': 'Completed more than 5 client projects in less than 1 month during internship (2024)',
 
         'language-title': 'Languages',
-        'bhs-indo': 'Indonesian:',
-        'bhs-inggris': 'English:',
-        'bhs-jerman': 'German:',
+        'bhs-indo': 'Indonesian',
+        'bhs-inggris': 'English',
+        'bhs-jerman': 'German',
+        'bhs-indo1': 'Native',
+        'bhs-inggris1': 'B2 | Intermediate',
+        'bhs-jerman1': 'Begginer',
 
         'contact-title': 'Contact',
         'contact-email-label': 'Email:',
@@ -404,9 +410,12 @@
         'achievements-item6': 'Abschluss von über 5 Kundenprojekten in weniger als 1 Monat während des Praktikums (2024)',
         
         'language-title': 'Sprachen',
-        'bhs-indo': 'Indonesisch:',
-        'bhs-inggris': 'Englisch:',
-        'bhs-jerman': 'Deutsch:',
+        'bhs-indo': 'Indonesisch',
+        'bhs-inggris': 'Englisch',
+        'bhs-jerman': 'Deutsch',
+        'bhs-indo1': 'Muttersprache',
+        'bhs-inggris1': 'B2 | Fortgeschrittene Mittelstufe',
+        'bhs-jerman1': 'Anfänger',
 
         'contact-title': 'Kontakt',
         'contact-email-label': 'E-Mail:',
