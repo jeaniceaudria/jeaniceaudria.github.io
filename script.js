@@ -28,14 +28,28 @@ document.addEventListener('DOMContentLoaded', () => {
     'about-motivation-text': '"Saya berkomitmen memastikan setiap produk digital yang saya tangani memberikan pengalaman lancar dan andal bagi pengguna, melalui pengujian teliti dan pembelajaran berkelanjutan."',
 
     'portfolio-title': 'Portofolio & Proyek',
-    'portfolio-project1-name': 'Personal Portfolio',
-    'portfolio-project1-desc': 'Situs statis (proyek ini) — responsif dengan mode gelap/terang.',
-    'portfolio-project2-name': 'JeanStream',
-    'portfolio-project2-desc': 'Prototipe aplikasi streaming sederhana dengan fokus pada responsivitas dan UX   .',
-    'portfolio-project3-name': 'PT Mommi Hokki — Profil Perusahaan',
-    'portfolio-project3-desc': 'Situs web proyek akhir untuk klien / portofolio akademis.',
-    'portfolio-live': 'Demo',
-    'portfolio-code': 'Kode',
+
+'portfolio-project1-name': 'Personal Portfolio',
+'portfolio-project1-desc': 'Dokumentasi diri & showcase proyek — disusun dalam bentuk file presentasi & CV kreatif.',
+
+'portfolio-project2-name': 'JeanStream',
+'portfolio-project2-desc': 'Prototipe aplikasi streaming sederhana dengan fokus pada responsivitas dan UX.',
+
+'portfolio-project3-name': 'PT Mommi Hokki — Profil Perusahaan',
+'portfolio-project3-desc': 'Situs web profil perusahaan sebagai proyek akhir sekaligus portofolio akademis.',
+
+'portfolio-project4-name': 'LJ-Project',
+'portfolio-project4-desc': 'Kolaborasi freelance — terbuka untuk pembuatan berbagai website sesuai kebutuhan klien.',
+
+'portfolio-project5-name': 'Quality Control Documentation',
+'portfolio-project5-desc': 'Dokumentasi QA: laporan bug, test case, dan evaluasi kualitas selama masa magang.',
+
+'portfolio-project6-name': 'JeanVerse — Manajemen Event & Tiket',
+'portfolio-project6-desc': 'Prototipe platform untuk manajemen acara dan pemesanan tiket dengan tampilan modern & responsif.',
+
+'portfolio-live': 'Demo',
+'portfolio-code': 'Kode',
+
 
     'experience-job1-title': 'Team Supervisor',
     'experience-job1-company': 'PT Mommi Hokki Indonesia',
@@ -140,14 +154,27 @@ document.addEventListener('DOMContentLoaded', () => {
     'about-motivation-text': '"I am committed to ensuring that every digital product I work on delivers a seamless and reliable user experience through careful testing and continuous learning."',
 
     'portfolio-title': 'Portfolio & Projects',
-    'portfolio-project1-name': 'Personal Portfolio',
-    'portfolio-project1-desc': 'Static website (this project) — responsive with dark/light mode.',
-    'portfolio-project2-name': 'JeanStream',
-    'portfolio-project2-desc': 'Prototype streaming app focusing on responsiveness and UX.',
-    'portfolio-project3-name': 'PT Mommi Hokki — Company Profile',
-    'portfolio-project3-desc': 'Final project website for a client / academic portfolio.',
-    'portfolio-live': 'Live Demo',
-    'portfolio-code': 'Code',
+
+'portfolio-project1-name': 'Personal Portfolio',
+'portfolio-project1-desc': 'Self-documentation & project showcase — designed as creative CV and presentation files.',
+
+'portfolio-project2-name': 'JeanStream',
+'portfolio-project2-desc': 'A simple streaming app prototype with focus on responsiveness and user experience.',
+
+'portfolio-project3-name': 'PT Mommi Hokki — Company Profile',
+'portfolio-project3-desc': 'Company profile website as a final project and academic portfolio.',
+
+'portfolio-project4-name': 'LJ-Project',
+'portfolio-project4-desc': 'Freelance collaboration — open for building websites tailored to client needs.',
+
+'portfolio-project5-name': 'Quality Control Documentation',
+'portfolio-project5-desc': 'QA documentation: bug reports, test cases, and quality evaluations during internship.',
+
+'portfolio-project6-name': 'JeanVerse — Event Management & Ticketing',
+'portfolio-project6-desc': 'Prototype platform for event management and ticket booking with a modern, responsive design.',
+
+'portfolio-live': 'Live Demo',
+'portfolio-code': 'Code',
 
     'experience-title': 'Work Experience',
 
@@ -264,14 +291,27 @@ document.addEventListener('DOMContentLoaded', () => {
     'about-motivation-text': '"Mein Ziel ist es, durch sorgfältige Tests und kontinuierliches Lernen sicherzustellen, dass jedes digitale Produkt eine reibungslose und zuverlässige Benutzererfahrung bietet."',
 
     'portfolio-title': 'Portfolio & Projekte',
-    'portfolio-project1-name': 'Persönliches Portfolio',
-    'portfolio-project1-desc': 'Statische Website (dieses Projekt) – responsiv mit Hell-/Dunkelmodus.',
-    'portfolio-project2-name': 'JeanStream',
-    'portfolio-project2-desc': 'Streaming-App-Prototyp mit Fokus auf Responsivität und UX.',
-    'portfolio-project3-name': 'PT Mommi Hokki — Firmenprofil',
-    'portfolio-project3-desc': 'Abschlussprojekt-Website für einen Kunden / akademisches Portfolio.',
-    'portfolio-live': 'Live-Demo',
-    'portfolio-code': 'Code',
+
+'portfolio-project1-name': 'Persönliches Portfolio',
+'portfolio-project1-desc': 'Selbstdokumentation & Projekt-Showcase — erstellt als kreative Präsentations- und CV-Dateien.',
+
+'portfolio-project2-name': 'JeanStream',
+'portfolio-project2-desc': 'Ein einfaches Streaming-App-Prototyp mit Fokus auf Responsivität und Benutzererfahrung.',
+
+'portfolio-project3-name': 'PT Mommi Hokki — Firmenprofil',
+'portfolio-project3-desc': 'Firmenprofil-Website als Abschlussprojekt und akademisches Portfolio.',
+
+'portfolio-project4-name': 'LJ-Project',
+'portfolio-project4-desc': 'Freelance-Kollaboration — offen für die Erstellung verschiedener Websites nach Kundenwunsch.',
+
+'portfolio-project5-name': 'Qualitätssicherungsdokumentation',
+'portfolio-project5-desc': 'QA-Dokumentation: Bug-Reports, Testfälle und Qualitätsbewertungen während des Praktikums.',
+
+'portfolio-project6-name': 'JeanVerse — Eventmanagement & Ticketing',
+'portfolio-project6-desc': 'Prototyp-Plattform für Eventmanagement und Ticketbuchung mit modernem, responsivem Design.',
+
+'portfolio-live': 'Live-Demo',
+'portfolio-code': 'Code',
 
     'experience-title': 'Berufserfahrung',
 
@@ -450,7 +490,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
     // Efek reveal saat di-scroll
     const revealElements = document.querySelectorAll('.reveal');
-    const revealObserver = new IntersectionObserver((entries) => {
+    const revealObserver = new IntersectionObserver((entries) => {  
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
