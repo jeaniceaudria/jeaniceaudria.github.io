@@ -14,7 +14,7 @@
         'hero-bio': 'Seorang QA enthusiast yang sedang menempuh studi Informatika di Telkom University. Terampil membuat artefak uji yang jelas, melakukan pengujian manual secara teliti, serta mengembangkan proyek web kecil untuk mengasah keterampilan.',
         'hero-contact-btn': 'Hubungi / Rekrut',
         'hero-portfolio-btn': 'Lihat Portofolio',
-        'hero-certificates-btn': 'Sertifikat',
+        'hero-certificates-btn': 'Unduh Resume',
         'aside-name': 'Janice Marsha Audria',
         'aside-title': 'QA Enthusiast — Pengujian Manual',
         'stats-title': 'Statistik Saya',
@@ -152,7 +152,7 @@
         'hero-bio': 'A QA enthusiast currently pursuing a degree in Informatics at Telkom University. Skilled in creating clear test artifacts, performing thorough manual testing, and building small web projects to sharpen my skills.',
         'hero-contact-btn': 'Hire / Contact',
         'hero-portfolio-btn': 'Live Portfolio',
-        'hero-certificates-btn': 'Certificates',
+        'hero-certificates-btn': 'Download CV',
         'aside-name': 'Janice Marsha Audria',
         'aside-title': 'QA Enthusiast — Manual Testing',
         'stats-title': 'My Stats',
@@ -272,7 +272,7 @@
         'bhs-jerman': 'German',
         'bhs-indo1': 'Native',
         'bhs-inggris1': 'B2 | Intermediate',
-        'bhs-jerman1': 'Beginner',
+        'bhs-jerman1': 'Begginer',
 
         'contact-title': 'Contact',
         'contact-email-label': 'Email:',
@@ -298,7 +298,7 @@
         'hero-bio': 'Eine QA-Enthusiastin, die derzeit Informatik an der Telkom University studiert. Erfahrung in der Erstellung klarer Testartefakte, Durchführung gründlicher manueller Tests und Entwicklung kleiner Webprojekte zur Verbesserung der eigenen Fähigkeiten.',
         'hero-contact-btn': 'Kontakt / Anstellen',
         'hero-portfolio-btn': 'Live-Portfolio',
-        'hero-certificates-btn': 'Zertifikate',
+        'hero-certificates-btn': 'Lebenslauf herunterladen',
 
         'aside-name': 'Janice Marsha Audria',
         'aside-title': 'QA-Enthusiastin — Manuelle Tests',
@@ -592,4 +592,3 @@
             });
         }
     });
-
