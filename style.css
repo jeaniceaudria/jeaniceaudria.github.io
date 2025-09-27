@@ -17,6 +17,19 @@
     --text: #1f2937;
     --muted: #6b7280;
 }
+/* Default (light mode) */
+/* Default (Light mode) */
+#coming-soon h2,
+#coming-soon p {
+  color: #111; /* teks gelap supaya kebaca di background putih */
+}
+
+/* Kalau dark mode */
+[data-theme="dark"] #coming-soon h2,
+[data-theme="dark"] #coming-soon p {
+  color: #fff; /* teks putih biar kontras */
+}
+
 
 /*
  * === BASE STYLES ===
