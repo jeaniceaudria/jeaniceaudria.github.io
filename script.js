@@ -119,7 +119,6 @@
         'achievements-item3': 'Finalis 10 Besar Video Terbaik – Bank Indonesia (2020 & 2021)',
         'achievements-item4': 'Video Kreator Terbaik – PT Mommi Hokki Indonesia (2023)',
         'achievements-item5': 'Meraih nilai A dalam program magang sebagai Quality Assurance di PT Sekawan Media (2024)',
-        'achievements-item6': 'Menyelesaikan lebih dari 5 proyek klien dalam waktu kurang dari 1 bulan selama masa magang (2024)',
         
         'language-title': 'Bahasa',
         'bhs-indo': 'Bahasa Indonesia',
@@ -264,8 +263,7 @@
         'achievements-item3': 'Top 10 Finalist – Bank Indonesia Video Competition (2020 & 2021)',
         'achievements-item4': 'Best Video Creator – PT Mommi Hokki Indonesia (2023)',
         'achievements-item5': 'Achieved an A grade in the internship program as a Quality Assurance at PT Sekawan Media (2024)',
-        'achievements-item6': 'Completed more than 5 client projects in less than 1 month during internship (2024)',
-
+       
         'language-title': 'Languages',
         'bhs-indo': 'Indonesian',
         'bhs-inggris': 'English',
@@ -407,8 +405,7 @@
         'achievements-item3': 'Top-10-Finalistin – Bank Indonesia Videowettbewerb (2020 & 2021)',
         'achievements-item4': 'Beste Videoproduzentin – PT Mommi Hokki Indonesia (2023)',
         'achievements-item5': 'Note A im Praktikum als Quality Assurance bei PT Sekawan Media (2024)',
-        'achievements-item6': 'Abschluss von über 5 Kundenprojekten in weniger als 1 Monat während des Praktikums (2024)',
-        
+         
         'language-title': 'Sprachen',
         'bhs-indo': 'Indonesisch',
         'bhs-inggris': 'Englisch',
@@ -592,3 +589,4 @@
             });
         }
     });
+
