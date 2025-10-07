@@ -270,7 +270,7 @@
         'bhs-jerman': 'German',
         'bhs-indo1': 'Native',
         'bhs-inggris1': 'B2 | Intermediate',
-        'bhs-jerman1': 'Begginer',
+        'bhs-jerman1': 'Beginner',
 
         'contact-title': 'Contact',
         'contact-email-label': 'Email:',
@@ -589,4 +589,5 @@
             });
         }
     });
+
 
